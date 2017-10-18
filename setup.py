@@ -7,5 +7,6 @@ setup(name='pyopscale',
       author_email='code@alexlubbock.com',
       url='https://github.com/alubbock/pyopscale',
       packages=['pyopscale'],
-      install_requires=['rpy2']
+      install_requires=['rpy2', 'jinja2'],
+      package_data={'pyopscale': ['pyopscale/opscale.R']}
      )
